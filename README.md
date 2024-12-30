@@ -11,7 +11,5 @@ This repository contains a collection of test projects designed to explore and e
 
 - [Docker](https://www.docker.com/) installed and running.
 - [LocalStack CLI](https://docs.localstack.cloud/references/cli/) installed.
-- Java Development Kit (JDK) 21.
-- Apache Maven.
 
 Stay tuned for more projects and scenarios to be added!
