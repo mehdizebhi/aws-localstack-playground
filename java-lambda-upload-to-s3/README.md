@@ -47,7 +47,7 @@ Deploy the Lambda function using `awslocal`:
 awslocal lambda create-function \
     --function-name upload-handler \
     --runtime java21 \
-    --handler ImageUploadHandler \
+    --handler UploadHandler \
     --role arn:aws:iam::000000000000:role/lambda-execution-role \
     --zip-file fileb://target/java-lambda-upload-to-s3-1.0-SNAPSHOT.jar
 ```
