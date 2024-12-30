@@ -45,7 +45,7 @@ mvn clean package
 Deploy the Lambda function using `awslocal`:
 ```bash
 awslocal lambda create-function \
-    --function-name image-upload-handler \
+    --function-name upload-handler \
     --runtime java21 \
     --handler ImageUploadHandler \
     --role arn:aws:iam::000000000000:role/lambda-execution-role \
@@ -56,7 +56,7 @@ awslocal lambda create-function \
 Invoke the Lambda function using a sample input file `input.json`:
 ```bash
 awslocal lambda invoke \
-    --function-name image-upload-handler \
+    --function-name upload-handler \
     --payload file://input.json \
     output.json
 ```
